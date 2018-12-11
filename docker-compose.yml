@@ -8,7 +8,7 @@ services:
       MYSQL_USER: cmathews
       MYSQL_PASSWORD: P@ssw0rd1
     volumes:
-      - "D:/docker/restaurant/db/data:/var/lib/mysql"    
+      - "./db/data:/var/lib/mysql"    
     restart: always
     container_name: db
     ports: 
